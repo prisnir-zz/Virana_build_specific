@@ -8,9 +8,9 @@ The only change is reflected in the following scripts:
 =
 python vref.py fasta -r Homo_sapiens -g 37 -o my_genome_GrCh37_db.fa --debug
 
-python vref.py fasta -r Homo_sapiens_cDNA -g 38 -o ~/TGL/data/my_transcriptome_db.fa --debug
+python vref.py fasta -r Homo_sapiens_cDNA -g 38 -o my_transcriptome_db.fa --debug
 
-python vref.py fasta -r Homo_sapiens_cDNA -g 37 -o ~/TGL/data/my_transcriptome_db.fa --debug
+python vref.py fasta -r Homo_sapiens_cDNA -g 37 -o my_transcriptome_db.fa --debug
 
 =
 For more help::
