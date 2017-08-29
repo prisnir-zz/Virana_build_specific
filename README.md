@@ -3,16 +3,16 @@ Minor manipulation to the existing Virana source code https://github.com/schelho
 
 The original usage and documentation is based on the source code provided by the developers [ avaialble here: https://github.com/schelhorn/virana/]
 
+======================================================
 The only change is reflected in the following scripts:
+======================================================
+python vref.py fasta -r Homo_sapiens -g 37 -o my_genome_GrCh37_db.fa --debug
 
-python vref.py fasta -r Homo_sapiens -o my_genome_GrCh37_db.fa --debug
-
-python vref.py fasta -r Homo_sapiens -o my_genome_GrCh37_db.fa --debug
-
+======================================================
 python vref.py fasta -r Homo_sapiens_cDNA -g 38 -o ~/TGL/data/my_transcriptome_db.fa --debug
 
 python vref.py fasta -r Homo_sapiens_cDNA -g 37 -o ~/TGL/data/my_transcriptome_db.fa --debug
-
+======================================================
 For more help::
 python virana/vref.py fasta -h
 vref fasta 1.0.0
