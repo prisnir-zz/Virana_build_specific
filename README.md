@@ -20,6 +20,7 @@ python virana/vref.py fasta -h
 
 ---------- xxxxx --------------
 
-= Bug fixes to vhom.py
+= 
+Bug fixes to vhom.py
 
 Fixed the exception handling for cases where no entries or bam_file_path were obtained. Fixed with IndexError, AttributeErro and IOError handling.
